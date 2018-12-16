@@ -3,7 +3,6 @@ clear
 clc
 close all
 %% input image
-
 [file,path]=uigetfile({'*.jpg;*.bmp;*.png;*.tif'},'Choose an image');
 s=[path,file];
 I=imread(s);
